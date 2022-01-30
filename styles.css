@@ -105,7 +105,8 @@ li {
     background-color: #f9faf8;
     flex-direction: column;
     gap: 25px;
-    padding: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     
 }
 
@@ -141,7 +142,10 @@ li {
     text-align: center;
 }
 
-img {
+.pic-one,
+.pic-two,
+.pic-three,
+.pic-four {
     border: #3882f6 5px solid;
     border-radius: 10px;
 }
@@ -234,5 +238,4 @@ footer {
     background-color: #1F2937;
     color: #f9faf8;
     text-align: center;
-    border: palevioletred 2px solid;
 }

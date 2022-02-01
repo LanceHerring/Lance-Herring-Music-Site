@@ -8,11 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100;1,900&display=swap" rel="stylesheet">
+    <link rel="script" href="script.js">
     <title>Lance Herring</title>
 </head>
 <body>
     <header>
-        <div class="header-logo"><img src="img/LH Pick.jpg" alt="logo" border-radius="50%"></div>
+        <div class="header-logo"><img src="img/LH Pick.jpg" alt="logo"></div>
         <ul>
             <a class="header-link-one">Home</a>
             <a class="header-link-two">About</a>
@@ -23,7 +24,16 @@
         <div class="hero-one">
             <div class="hero-main-text">Lance Herring</div>
             <div class="hero-sub-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolore, iure consequatur neque provident nihil.</div>
-            <button class="button-one">Sign Up</button>
+            <button class="button-one">Do NOT click me!</button>
+            <script>
+                const button = document.querySelector('button');
+                    function greet() {
+                    const name = prompt('What is your name?');
+                    alert(`${name}, can't you read??`);
+                    }
+                         
+                    button.addEventListener('click', greet);
+                         </script>
             </div>
             <img class="onstage-img" src="img/lance-playing-guitar.jpeg" alt="lance on stage";>  
         </div> 
